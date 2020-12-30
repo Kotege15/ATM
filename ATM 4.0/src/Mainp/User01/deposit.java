@@ -34,12 +34,8 @@ public class deposit {
 
 
         switch ( userdepositmenuoption ) {
-            case 1:
-                Mainp.User01.DisplayU1.menu();
-                break;
-            case 2:
-                Main.page();
-                break;
+            case 1 -> Mainp.User01.DisplayU1.menu();
+            case 2 -> Main.page();
             default:
                 break;
         }
